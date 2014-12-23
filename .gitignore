@@ -33,3 +33,6 @@ src/main/jni
 jni/Application.mk
 obj
 libs
+
+build/
+.gradle/

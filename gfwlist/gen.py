@@ -37,7 +37,14 @@ def main():
         "224.0.0.0/4",
         "240.0.0.0/4",
     ]))
+
+    white_list = IPy.IPSet(map(IPy.IP, [
+                        "72.14.249.180/32",
+                    ]))
+
     china_list_set += internal_list
+
+    china_list_set += white_list
 
     # 取反
     all = IPy.IPSet([IPy.IP("0.0.0.0/0")])

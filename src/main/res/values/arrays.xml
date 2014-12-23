@@ -39,6 +39,9 @@
   </string-array>
 
   <string-array name="chn_list_full">
+    <item>72.14.249.180/32</item>
+    <item>74.125.129.141/32</item>
+    <item>173.194.79.141/32</item>
     <item>1.0.1.0/24</item>
     <item>1.0.2.0/23</item>
     <item>1.0.8.0/21</item>
